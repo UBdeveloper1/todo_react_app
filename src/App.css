@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+.bd-navbar {
+  min-height: 4rem;
+  background-color: #e34262;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.bd-navbar {
+  min-height: 4rem;
+  background-color: #e34262;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.bd-margin {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 0.2rem;
+}
+
+.todo-complete {
+  text-decoration: line-through;
+  color: lightgrey;
+}
+
+.header-style {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+}
+
+.list-pointer {
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
